@@ -44,7 +44,7 @@ func TestPossible(t *testing.T) {
 		},
 		{
 			name:        "5",
-			line:        "Game 38: 13 red, 6 blue, 1 green; 8 red, 4 green, 8 blue; 13 green, 7 red, 3 blue; 6 red, 12 green, 2 blue; 7 blue, 15 green, 5 red; 13 green, 2 blue, 14 red",
+			line:        "Game 38: 13 red, 6 blue, 1 green; 8 red, 4 green, 8 blue; 13 green, 7 red, 3 blue; 6 red, 12 green, 2 blue; 7 blue, 15 green, 5 red; 13 green, 2 blue, 13 red",
 			limit:       []CubePlay{{CubeRed, 13}, {CubeGreen, 15}, {CubeBlue, 14}},
 			expPossible: true,
 		},
